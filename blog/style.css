@@ -1,0 +1,52 @@
+body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#header{
+	margin: 20px;
+	clear: both;
+	overflow: hidden;
+	min-height: 10px;
+	border-bottom: 1px solid #000000;
+}
+
+#logo {
+	float: left;
+}
+
+.nav {
+	margin: 50px 0px 0px 0px;
+	width: 200px;
+	background-color: yellow;
+	float: right;
+}
+.nav ul{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+.nav ul li{
+	padding: 0px 10px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	display: inline-block;
+}
+
+#wrapper {
+
+}
+
+.side_nav{
+	margin: 0px 0px 0px 0px;
+	width: 250px;
+	background-color: yellow;
+	float: left;
+}
+
+.main_content{
+	margin: 0px 0px 0px 0px;
+	width: 500px;
+	background-color: yellow;
+	float: right;
+}

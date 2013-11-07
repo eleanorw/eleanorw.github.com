@@ -18,35 +18,110 @@ body{
 }
 
 .nav {
-	margin: 50px 0px 0px 0px;
-	width: 200px;
-	background-color: yellow;
+	margin: 70px 0px 0px 0px;
+	width: 210px;
+	background-color: none;
 	float: right;
 }
 .nav ul{
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
 }
 .nav ul li{
 	padding: 0px 10px 0px 0px;
-	margin: 0px 0px 0px 0px;
+	margin: 0px;
 	display: inline-block;
 }
 
+.nav a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:visited{
+	color:black;
+}
+
 #wrapper {
+	margin: 0px;
 
 }
 
 .side_nav{
-	margin: 0px 0px 0px 0px;
+	margin: 0px;
 	width: 250px;
-	background-color: yellow;
+	background-color: none;
+	float: left;
+	position: fixed;
+}
+
+.side_nav li{
+	margin: 0px 0px 10px 0px;
+}
+
+.side_nav ul{
+	list-style-type: none;
+	font-weight: bold;
+}
+
+.side_nav a:link {
+	text-decoration: none;
+	color: black;
+}
+
+.side_nav a:visited {
+	color: black;
+}
+
+#content{
+	margin: 0px 0px 0px 350px;
+	padding: 15px 0px 0px 0px;
+	width: 700px;
 	float: left;
 }
 
-.main_content{
-	margin: 0px 0px 0px 0px;
-	width: 500px;
-	background-color: yellow;
-	float: right;
+
+#content h5{
+	margin:0px;
 }
+
+#content h2{
+	text-transform: uppercase;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+#about  {
+	margin:20px;
+}
+
+#about h2{
+	text-transform: uppercase;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+#archives  {
+	margin:20px;
+}
+
+#contact {
+	margin:20px;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#footer {
+	margin: 20px;
+	min-height: 10px;
+	border-top: 1px solid #000000;
+	font-weight: bold;
+}
+

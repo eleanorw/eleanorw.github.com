@@ -1,0 +1,92 @@
+body{
+	font-family: arial;
+	margin: 0px;
+	padding: 0px;
+	background-color: none;
+}
+
+#logo{
+	text-align: center;
+	background-image:url('images/beans.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #000000;
+	width: inherit;
+	padding-bottom: 100px;
+
+}
+
+.nav {
+	margin: 0px 0px 0px 0px;
+	padding:10px 0px 5px 0px;
+	width: 100%;
+	background-color: #2f0c01;;
+	float: left;
+	text-align: center;
+	font-family: times;
+}
+.nav ul{
+	padding: 0px;
+	margin: 0px;
+}
+.nav ul li{
+	padding: 0px 20px 0px 0px;
+	margin: 0px;
+	display: inline-block;
+}
+
+.nav a:link{
+	color: #b3a087;
+	text-decoration: none;
+
+}
+
+.nav a:visited{
+	color: #b3a087;
+}
+
+.wrapper{
+	background-color: #FFFFFF;
+
+}
+
+.wrapper h3{
+	margin: 0px;
+}
+
+#background img {
+	width:100%;
+}
+
+.left {
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin: 20px 20px 20px 250px;
+}
+
+.right {
+	float: left;
+	width: 300px;
+	text-align: center;
+	margin: 20px 20px 20px 100px;
+}
+}
+
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}
+
+#footer {
+	margin-top: 450px;
+	width: 100%;
+	position: absolute;
+	background-color: #2f0c01;
+	text-align: center;
+	color: #b3a087;
+}

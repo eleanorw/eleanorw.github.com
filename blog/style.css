@@ -1,9 +1,13 @@
 body{
-	font-family: arial;
+	font-family: arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
-
 }
+
+/*@font-face {
+font-family: FjallaOne;
+src: url('http://fonts.googleapis.com/css?family=Fjalla+One');
+} */
 
 #header{
 	margin: 20px;
@@ -53,7 +57,7 @@ body{
 	width: 250px;
 	background-color: none;
 	float: left;
-	position: fixed;
+/*	position: fixed;*/
 }
 
 .side_nav li{
@@ -63,6 +67,7 @@ body{
 .side_nav ul{
 	list-style-type: none;
 	font-weight: bold;
+	padding: 0px 0px 0px 20px;
 }
 
 .side_nav a:link {
@@ -75,7 +80,7 @@ body{
 }
 
 #content{
-	margin: 0px 0px 0px 350px;
+	margin: 0px 0px 0px 80px;
 	padding: 15px 0px 0px 0px;
 	width: 700px;
 	float: left;
@@ -89,25 +94,7 @@ body{
 #content h2{
 	text-transform: uppercase;
 	margin: 0px;
-	font-family: sans-serif;
-}
-
-#about  {
-	margin:20px;
-}
-
-#about h2{
-	text-transform: uppercase;
-	margin: 0px;
-	font-family: sans-serif;
-}
-
-#archives  {
-	margin:20px;
-}
-
-#contact {
-	margin:20px;
+	font-family: 'Fjalla One', sans-serif, arial;
 }
 
 .clearfix:after { 
@@ -117,6 +104,27 @@ body{
    height: 0; 
    clear: both;
 }
+
+/*---------about page--------*/
+#about  {
+	margin:20px;
+}
+
+#about h2{
+	text-transform: uppercase;
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+/*-------archives page-------*/
+#archives  {
+	margin:20px;
+}
+
+#contact {
+	margin:20px;
+}
+
+
 
 #footer {
 	margin: 20px;

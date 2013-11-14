@@ -10,35 +10,54 @@
 </head>
 
 <body>
-<body>
-
-<div class="header">
+<header>
 
 	<div id="logo">
 		<a href="index.html"><img src="images/beans-logo.png"></a>
 	</div>
 
-
-<div class="nav">
-	<ul>
-		<li><a href="about.html">about</a></li>
-		<li><a href="beans.html">beans</a></li>
-		<li><a href="specials.html">specials</a></li>
-		<li><a href="contact.html">contact</a></li>
-	</ul>
+	<div class="nav" class="clearfix">
+		<ul>
+			<li><a href="about.html">about</a></li>
+			<li><a href="beans.html">beans</a></li>
+			<li><a href="specials.html">specials</a></li>
+			<li><a href="contact.html">contact</a></li>
+		</ul>
+	</div>
 </div>
+</header>
 
-<div id="wrapper">
+<section id="beans">
 	<h3>Beans</h3>
-		<img src="images/scoop.jpg" width="350" height="300"> Scoop the beans.
-		<br>
-		<img src="images/Coffee-Beans.jpg" width="350" height="300">Beans display.
-</div>
+	<table>
+		<tr>
+			<td>
+			<img src="images/scoop.jpg" width="350" height="300" alt="scoop beans">
+			</td>
+			<td>
+			<img src="images/Coffee-Beans.jpg" width="350" height="300" alt="coffee beans">
+			</td>
+		</tr>
 
-<div id="footer">
+		<tr>
+			<td>
+			Scoop the beans.
+			</td>
+			<td>
+			Beans Display.
+			</td>
+		</tr>
+	</table>
+
+	<!--is the only way to place text under an image is to put them in tables-->
+</section>
+
+<footer id="footer">
+	<p>
 	123 Latte Lane, Javaville - 555-423-1234
 	<br>&copy;Dream Beans Caffe 2013
-</div>
+	</p>
+</footer>
 
 </body>
 

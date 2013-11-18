@@ -5,9 +5,20 @@ body{
 }
 
 @font-face {
-font-family: League Gothic;
-src: url('type/league-gothic/LeagueGothic-Regular.otf');
+  font-family: 'League Gothic';
+  src: url('type/League-Gothic/LeagueGothic-Regular.otf');
 }
+
+/*
+@font-face {
+  font-family: 'League Gothic';
+  src: url('type/League-Gothic/LeagueGothic-Regular.otf');
+  src: url('type/League-Gothic/LeagueGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('type/League-Gothic/LeagueGothic-Regular.woff') format('woff'),
+    url('type/League-Gothic/LeagueGothic-Regular.tff') format('truetype'),
+    url('type/League-Gothic/LeagueGothic-Regular.svg#LeagueGothic13Regular') format('svg');
+}
+*/
 
 #header{
 	margin: 20px;
@@ -86,7 +97,7 @@ src: url('type/league-gothic/LeagueGothic-Regular.otf');
 	padding: 15px 0px 0px 0px;
 	width: 700px;
 	float: left;
-	line-height: 20px;
+	line-height: 120%;
 }
 
 
@@ -98,7 +109,7 @@ src: url('type/league-gothic/LeagueGothic-Regular.otf');
 
 #content h2{
 	text-transform: uppercase;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 	margin: 0px;
 	font-size: 2em;
 	font-family: 'League Gothic', sans-serif, arial;

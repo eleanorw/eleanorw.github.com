@@ -5,20 +5,16 @@ body{
 }
 
 @font-face {
-  font-family: 'League Gothic';
-  src: url('type/League-Gothic/LeagueGothic-Regular.otf');
-}
+    font-family: 'League Gothic';
+    src: url('type/leaguegothic-regular-webfont.eot');
+    src: url('type/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('type/leaguegothic-regular-webfont.woff') format('woff'),
+         url('type/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('type/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-/*
-@font-face {
-  font-family: 'League Gothic';
-  src: url('type/League-Gothic/LeagueGothic-Regular.otf');
-  src: url('type/League-Gothic/LeagueGothic-Regular.eot?#iefix') format('embedded-opentype'),
-    url('type/League-Gothic/LeagueGothic-Regular.woff') format('woff'),
-    url('type/League-Gothic/LeagueGothic-Regular.tff') format('truetype'),
-    url('type/League-Gothic/LeagueGothic-Regular.svg#LeagueGothic13Regular') format('svg');
 }
-*/
 
 #header{
 	margin: 20px;

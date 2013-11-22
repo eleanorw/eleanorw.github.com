@@ -123,7 +123,7 @@ header{
 
 #footer {
 	width: 100%;
-	position: absolute;
+	position: absolute; /* position or fixed, doesnt fix beans pic page*/
 	bottom: 0px;
 	padding: 20px;
 	background-color: #2f0c01;

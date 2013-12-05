@@ -59,6 +59,34 @@ header{
 	margin: 0px;
 }
 
+section {
+	overflow: hidden;
+	padding: 2% 0;
+}
+
+.col {
+	float: left;
+	display: block;
+}
+
+.col h3{
+	font-family: arial;
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.col article {
+	width: 300px;
+	line-height: 120%;
+	padding: 40px;
+	margin: 0 60%;
+}
+.col article p{
+	text-align: center;
+	margin: 0.5%;
+}
+/*
 .left, .right {
 	line-height: 120%;
 }
@@ -83,7 +111,7 @@ header{
 	text-align: center;
 	margin: 20px 20px 20px 100px;
 }
-
+*/
 
 .clearfix:after { 
    content: "."; 

@@ -2,7 +2,7 @@ body{
 	font-family: Georgia, serif;
 	margin: 0px;
 /*	padding-bottom: 100px;*/
-	background-color: none;
+	background-color: #2f0c01;
 }
 
 header{
@@ -64,63 +64,49 @@ section {
 	padding: 2% 0;
 }
 
-.col {
-	float: left;
-	display: block;
+.centerbox{
+	width: 70%;
+	margin: auto;
+}
+
+@media (max-width: 400px) {
+	.col {
+		width: 60%;
+		float: inherit;
+	}
 }
 
 .col h3{
 	font-family: arial;
 	font-weight: bold;
 	font-size: 1.1em;
-	padding-bottom: 10px;
+	padding-bottom: 3%;
 	text-align: center;
 }
 .col article {
-	width: 300px;
 	line-height: 120%;
-	padding: 40px;
-	margin: 0 60%;
+	width: 45%;
+	margin: 5% 0%;
+	float: left;
 }
+
+.col article:first-child{
+	margin-right: 5%;
+}
+
 .col article p{
 	text-align: center;
-	margin: 0.5%;
-}
-/*
-.left, .right {
-	line-height: 120%;
 }
 
-.left {
-	float: left;
-	width: 300px;
-	text-align: center;
-	margin: 20px 20px 20px 250px;
+.clear { 
+	clear:both; 
+	min-height: 10px; 
+	overflow: hidden;
 }
 
-.left h3, .right h3{
-	font-family: arial;
-	font-weight: bold;
-	font-size: 1.1em;
-	padding-bottom: 10px;
+.articles {
+	background-color: #FFFFFF;
 }
-
-.right {
-	float: left;
-	width: 300px;
-	text-align: center;
-	margin: 20px 20px 20px 100px;
-}
-*/
-
-.clearfix:after { 
-   content: "."; 
-   visibility: hidden; 
-   display: block; 
-   height: 0; 
-   clear: both;
-}
-
 #about img {
 	padding-right: 10px; 
 }
@@ -151,8 +137,8 @@ section {
 
 #footer {
 	width: 100%;
-	position: absolute; /* position or fixed, doesnt fix beans pic page*/
-	bottom: 0px;
+	/*position: absolute;  position or fixed, doesnt fix beans pic page
+	bottom: 0px;*/
 	padding: 20px;
 	background-color: #2f0c01;
 }

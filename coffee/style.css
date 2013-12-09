@@ -107,14 +107,17 @@ section {
 .articles {
 	background-color: #FFFFFF;
 }
+
+
 #about img {
 	padding-right: 10px; 
 }
 
 
 #about, #beans, #specials, #contact {
-	margin: 20px;
+	margin: auto;
 	padding:20px;
+	background-color: #FFFFFF;
 }
 
 #about h3, #beans h3, #specials h3, #contact h3 {

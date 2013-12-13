@@ -117,6 +117,7 @@ section {
 	margin: auto;
 	padding:20px;
 	background-color: #FFFFFF;
+	min-height: 400px;
 }
 
 #about h3, #beans h3, #specials h3, #contact h3 {
@@ -134,8 +135,6 @@ section {
 }
 
 .wrapper {
-	margin-bottom: 20px;
-	min-height: 600px;
 }
 
 #footer {

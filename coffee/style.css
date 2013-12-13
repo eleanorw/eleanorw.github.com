@@ -135,6 +135,7 @@ section {
 
 .wrapper {
 	margin-bottom: 20px;
+	min-height: 600px;
 }
 
 #footer {
